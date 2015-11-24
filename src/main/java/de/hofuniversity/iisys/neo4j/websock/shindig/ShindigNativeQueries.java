@@ -1,20 +1,18 @@
 /*
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
- * to you under the Apache License, Version 2.0 (the
- * "License"); you may not use this file except in compliance
- * with the License.  You may obtain a copy of the License at
+ *  Copyright 2015 Institute of Information Systems, Hof University
  *
- *   http://www.apache.org/licenses/LICENSE-2.0
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
  *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *  under the License.
  */
 package de.hofuniversity.iisys.neo4j.websock.shindig;
 
@@ -30,6 +28,7 @@ public class ShindigNativeQueries {
   public static final String APP_ID = "appId";
   public static final String OPTIONS_MAP = "$OPTIONS";
   public static final String FIELD_LIST = "fields";
+  public static final String AUTOCOMPLETE_FRAGMENT = "fragment";
 
   // person service methods
   public static final String PERSON_OBJECT = "person";
@@ -196,4 +195,23 @@ public class ShindigNativeQueries {
 
   public static final String UPDATE_MEDIA_ITEM_QUERY = "updateMediaItem";
   public static final String UPDATE_MEDIA_ITEM_METHOD = "updateMediaItem";
+
+  // skill service methods
+  public static final String SKILL = "skill";
+  public static final String SKILL_LINKER = "linker";
+
+  public static final String GET_SKILL_AUTOCOMPLETION_QUERY = "getSkillAutocompletion";
+  public static final String GET_SKILL_AUTOCOMPLETION_METHOD = "getSkillAutocomp";
+
+  public static final String GET_SKILLS_QUERY = "getSkills";
+  public static final String GET_SKILLS_METHOD = "getSkills";
+
+  public static final String ADD_SKILL_QUERY = "addSkill";
+  public static final String ADD_SKILL_METHOD = "addSkill";
+
+  public static final String REMOVE_SKILL_QUERY = "removeSkill";
+  public static final String REMOVE_SKILL_METHOD = "removeSkill";
+
+  public static final String GET_PEOPLE_BY_SKILL_QUERY = "getPeopleBySkill";
+  public static final String GET_PEOPLE_BY_SKILL_METHOD = "getPeopleBySkill";
 }
