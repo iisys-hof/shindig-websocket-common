@@ -214,4 +214,21 @@ public class ShindigNativeQueries {
 
   public static final String GET_PEOPLE_BY_SKILL_QUERY = "getPeopleBySkill";
   public static final String GET_PEOPLE_BY_SKILL_METHOD = "getPeopleBySkill";
+
+  // organization service methods
+  public static final String GET_HIERARCHY_PATH_QUERY = "getHierarchyPath";
+  public static final String GET_HIERARCHY_PATH_METHOD = "getHierarchyPath";
+
+  // process mining service methods
+  public static final String PROCESS_CYCLE_DOC_TYPE = "processCycleDocType";
+  public static final String PROCESS_CYCLE_OBJECT = "processCycle";
+
+  public static final String ADD_PROCESS_CYCLE_QUERY = "addProcessCycle";
+  public static final String ADD_PROCESS_CYCLE_METHOD = "addProcessCycle";
+  
+  public static final String GET_PROCESS_CYCLES_QUERY = "getProcessCycles";
+  public static final String GET_PROCESS_CYCLES_METHOD = "getProcessCycles";
+  
+  public static final String DELETE_PROCESS_CYCLES_QUERY = "deleteProcessCycles";
+  public static final String DELETE_PROCESS_CYCLES_METHOD = "deleteProcessCycles";
 }
